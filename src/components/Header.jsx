@@ -1,7 +1,10 @@
+import Navbar from './Navbar'
+import './Header.css'
+
 const Header = () => {
     return (
-        <header>
-            <h1>This is in the header!</h1>
+        <header className='d-flex align-items-center py-4'>
+            <Navbar />
         </header>
     )
 }
