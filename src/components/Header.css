@@ -1,3 +1,7 @@
 header {
     background-color: gray;
 }
+
+header h1 {
+    font-weight: bold;
+}
