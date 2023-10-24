@@ -1,8 +1,10 @@
+import profilePicture from '../images/profile_picture.jpg'
+ 
 const AboutMe = () => {
     return(
         <div className="mx-5">
             {/* Add the banner I had, possibly? */}
-            <img src="assets/images/IMG_0095 (2).JPG" alt="profile picture"></img>
+            <img src={profilePicture} alt="profile picture"></img>
             <h1>About me:</h1>
             <article>
                 <p>Hello, my name is Nathan Pokrandt! This is my website, where all of my best projects are showcased! I got into coding late in high school, when my mentor, also into computers, noted that I had certain qualities that might make me a good coder, such as problem-solving and logical reasoning. I then graduated with a B.S. in Computer Science from Emmaus Bible College in 2020, with a 4.0 GPA. I currently live on the East side of Madison.</p>
