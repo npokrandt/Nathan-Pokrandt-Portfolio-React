@@ -1,0 +1,9 @@
+.footer {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: blue !important;
+}
+
+.footer:hover {
+    color: rgb(38, 148, 250) !important;
+}

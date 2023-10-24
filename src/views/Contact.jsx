@@ -1,6 +1,6 @@
 const Contact = () => {
     return(
-        <h1>This is the Contact view</h1>
+        <h1>Form to enter name, email address and message</h1>
     )
 }
 

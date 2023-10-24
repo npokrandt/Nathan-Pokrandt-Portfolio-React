@@ -16,7 +16,7 @@ THEN I am presented with the developer's name and navigation with titles corresp
 WHEN I view the navigation titles
 THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 WHEN I click on a navigation title
-THEN the browser URL changes and I am presented with the corresponding section below the navigation and that title is highlighted
+THEN the browser URL changes and I am presented with the corresponding section below the navigation and that title is highlighted 
 WHEN I load the portfolio the first time
 THEN the About Me title and section are selected by default
 WHEN I am presented with the About Me section

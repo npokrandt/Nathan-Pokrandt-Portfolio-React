@@ -1,6 +1,6 @@
 const Portfolio = () => {
     return(
-        <h1>This is the portfolio view</h1>
+        <h1>Six titled projects designed as they were</h1>
     )
 }
 
