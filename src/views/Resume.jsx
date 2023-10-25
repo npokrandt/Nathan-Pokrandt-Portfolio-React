@@ -1,6 +1,24 @@
 const Resume = () => {
     return(
-        <h1>Downloadable resume with my proficiencies</h1>
+        <div className="container">
+            <h2>Download my resume below:</h2>
+            <div className="d-flex flex-column align-items-center">
+                <a href='#' className="fs-5 py-4">Link to download Resume</a>
+                <div className="card w-75 mb-4">
+                    <div className="card-header">
+                        <h3>Proficiencies:</h3>
+                    </div>
+                    <div className="card-body">
+                        <ul>
+                            <li>Adept at logical analysis</li>
+                            <li>Skilled at problem solving</li>
+                            <li>Well-versed in several coding concepts</li>
+                            <li>Eager and quick learner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 
