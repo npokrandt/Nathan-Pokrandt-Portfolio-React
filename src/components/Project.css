@@ -1,0 +1,17 @@
+.card {
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.card-header img {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card-body {
+    border-radius: 0px 0px 7px 7px;
+}
+
+.card a {
+    display: block;
+}
+
