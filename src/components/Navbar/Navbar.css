@@ -1,5 +1,12 @@
 .link {
     font-size: 25px;
     font-family: sans-serif;
-    color: black !important;
+}
+
+.link:hover {
+    color: white !important;
+}
+
+.selected {
+    color: white !important;
 }
