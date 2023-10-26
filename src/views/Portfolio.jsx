@@ -1,10 +1,13 @@
 import Project from "../components/Project/Project"
 import projects from '../projects/projects.json'
-import aquapocalypsePic from '../images/gameplay.png'
+import aquapocalypsePic from '../images/aquapocalypse.png'
+import ohSoBoredPic from '../images/ohSo_Bored-pic.png'
+import coffeeOrdersPic from '../images/coffee-orders.png'
+import theColorGamePic from '../images/the-color-game.png'
+import blogHubPic from '../images/bloghub.png'
+import scragglePic from '../images/scraggle.png'
 
-const project = projects[0]
-
-project.image = aquapocalypsePic
+const images = [aquapocalypsePic, ohSoBoredPic, coffeeOrdersPic, theColorGamePic, blogHubPic, scragglePic]
 
 const Portfolio = () => {
     return(
@@ -12,17 +15,22 @@ const Portfolio = () => {
 
             <h2>Check out some of my work:</h2> 
             <div className="row">
-                <div className="col-md-6">
-                    <Project
-                        name={project.name}
-                        image={project.image}
-                        link={project.link}
-                        githubLink={project.githubLink}
-                    />
-                </div>
-                <div className="col-md-6">
-                    <Project/>
-                </div>
+
+                {
+                    projects.map(project => {
+                        return(
+                            <div className="col-md-6">
+                                <Project
+                                    name={project.name}
+                                    image={images[project.id]}
+                                    link={project.link}
+                                    githubLink={project.githubLink}
+                                />
+                            </div>
+
+                        )
+                    })
+                }
             </div>          
         </div>
     )

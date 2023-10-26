@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header/Header'
-// import Project from './components/Project'
 import Footer from './components/Footer/Footer'
 import {Outlet} from 'react-router-dom'
 

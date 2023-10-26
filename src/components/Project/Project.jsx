@@ -8,8 +8,8 @@ const Project = props => {
             </div>
             <div className='card-body bg-success'>
                 <h4>{props.name}</h4>
-                <a href={props.link}>Check {props.name} out</a>
-                <a href={props.githubLink}>View {props.name}'s Github repo</a>
+                <a href={props.link} target='_blank'>Check {props.name} out</a>
+                <a href={props.githubLink} target='_blank'>View {props.name}'s Github repo</a>
             </div>
         </div>
     )

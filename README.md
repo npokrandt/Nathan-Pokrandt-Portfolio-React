@@ -8,11 +8,14 @@
 
 ## Notes
 
-Home - add banner and play with styles
-
 Port - add all 6 projects and see that it works
 
 header - link highlight and better responsiveness
+
+Form - add onMouseLeave to the form fields?
+
+Home - add banner and play with styles
+
 
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
