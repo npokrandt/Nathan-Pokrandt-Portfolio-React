@@ -11,11 +11,11 @@ const Contact = () => {
             <h2 className="mb-4">Contact me by filling out these fields:</h2>
             <form className="form p-4 mb-4">
                 <label className="form-label">Input Name Here:</label>
-                <input className='form-control' type="text" />
+                <input className='form-control' type="text" required/>
                 <label className="form-label">Input Email Here:</label>
-                <input className='form-control' type="email" />
+                <input className='form-control' type="email" required />
                 <label className="form-label">Input Message Here:</label>
-                <input className='form-control' type="text" />
+                <input className='form-control' type="text" required />
                 <button onSubmit={handleSubmit} type="submit" className="btn btn-primary mt-4">Submit</button>
             </form>
         </div>

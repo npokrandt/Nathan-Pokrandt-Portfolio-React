@@ -1,9 +1,8 @@
-import Project from "../components/Project"
+import Project from "../components/Project/Project"
 import projects from '../projects/projects.json'
 import aquapocalypsePic from '../images/gameplay.png'
 
 const project = projects[0]
-console.log(project)
 
 project.image = aquapocalypsePic
 
