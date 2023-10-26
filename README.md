@@ -12,8 +12,6 @@ Home - add banner and play with styles
 
 Port - add all 6 projects and see that it works
 
-contact - add state stuff (will not yet have a back end)
-
 header - link highlight and better responsiveness
 
 GIVEN a single-page application portfolio for a web developer
