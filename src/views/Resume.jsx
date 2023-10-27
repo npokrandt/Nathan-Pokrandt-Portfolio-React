@@ -1,4 +1,4 @@
-import resume from 'C:/Users/Nathan/Desktop/challenges/nathan-pokrandt-portfolio-react/src/views/Nathan_Pokrandt_Full_Stack_Web_Dev(Resume).pdf'
+import resume from './Nathan_Pokrandt_Full_Stack_Web_Dev_Resume.pdf'
 
 const Resume = () => {
     return(
