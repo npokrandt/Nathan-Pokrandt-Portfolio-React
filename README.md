@@ -18,18 +18,13 @@ Finally, the Resume page includes a link to my resume, which also automatically 
 
 At the bottom of any of the pages is a footer. It has links to my linkedIn page, my github page, and my facebook page.
 
-picture of projects page
+![portfolio projects page](/src/images/portfolioProjectsPic.png)
+
 ## Link
 
 My portfolio is deployed to Netlify here:
-link
+https://653b3fe3b52eae0c9cecf6eb--zippy-dodol-9ca7c9.netlify.app/
 
 ## Notes
 
 Obviously my projects aside from the tech blog, my bio, and some color design is borrowed from my older portfolio. Aside from that the code is unique.
-
-header - link highlight
-
-Form - add onMouseLeave to the form fields?
-
-Home - add banner and play with styles
