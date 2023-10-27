@@ -1,12 +1,13 @@
 .link {
     font-size: 25px;
     font-family: sans-serif;
+    color: black;
 }
 
 .link:hover {
     color: white !important;
 }
 
-.selected {
+.active {
     color: white !important;
 }
