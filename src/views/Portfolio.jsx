@@ -19,12 +19,12 @@ const Portfolio = () => {
                 {
                     projects.map(project => {
                         return(
-                            <div className="col-md-6">
+                            <div className="col-md-6" key={project.id}>
                                 <Project
                                     name={project.name}
                                     image={images[project.id]}
                                     link={project.link}
-                                    githubLink={project.githubLink}
+                                    githubLink={project.githubLink}                                
                                 />
                             </div>
 

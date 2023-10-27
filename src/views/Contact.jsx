@@ -30,7 +30,7 @@ const Contact = () => {
         setName('')
         setEmail('')
         setMessage('')
-    } 
+    }
     
     return(
         <div className="container">
