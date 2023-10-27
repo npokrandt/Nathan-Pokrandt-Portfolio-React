@@ -1,13 +1,13 @@
 import Project from "../components/Project/Project"
 import projects from '../projects/projects.json'
 import aquapocalypsePic from '../images/aquapocalypse.png'
-//import ohSoBoredPic from '../images/ohSoBoredPic.png'
+import ohSoBoredPic from '../images/ohSoBoredPic.png'
 import coffeeOrdersPic from '../images/coffeeOrders.png'
 import theColorGamePic from '../images/the-color-game.png'
 import blogHubPic from '../images/bloghub.png'
 import scragglePic from '../images/scraggle.png'
 
-const images = [aquapocalypsePic, aquapocalypsePic, coffeeOrdersPic, theColorGamePic, blogHubPic, scragglePic]
+const images = [aquapocalypsePic, ohSoBoredPic, coffeeOrdersPic, theColorGamePic, blogHubPic, scragglePic]
 
 const Portfolio = () => {
     return(
