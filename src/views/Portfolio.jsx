@@ -22,6 +22,8 @@ const Portfolio = () => {
                             <div className="col-md-6" key={project.id}>
                                 <Project
                                     name={project.name}
+                                    description={project.description}
+                                    technologies={project.technologies}
                                     image={images[project.id]}
                                     link={project.link}
                                     githubLink={project.githubLink}                                

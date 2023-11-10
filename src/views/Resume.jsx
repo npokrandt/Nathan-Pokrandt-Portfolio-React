@@ -1,6 +1,5 @@
 import resume from './Nathan_Pokrandt_Full_Stack_Web_Dev_Resume.pdf'
 
-// TODO: add skills to proficiencies
 const Resume = () => {
     return(
         <div className="container">

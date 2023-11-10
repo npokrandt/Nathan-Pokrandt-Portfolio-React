@@ -2,36 +2,48 @@
     {
         "id": 0,
         "name":"Aquapocalypse",
+        "description": "Aquapocalyspe is a fun single-player game in which the user swims around collecting food while avoiding the bad fishies in an apocalyptical setting!",
+        "technologies": ["Javascript", "Handlebars", "Express", "Node"],
         "link":"https://npokrandt-aquapocalypse-2ae8235b1b2d.herokuapp.com/login",
         "githubLink":"https://github.com/npokrandt/aquapocalypse"
     },
     {
         "id": 1,
         "name":"OhSo_Bored",
+        "description": "Feeling bored? Jump over to OhSo_Bored, where you can find a fun idea of something to do while seeing threehumorous GIFs relevant to the idea!",
+        "technologies": ["Javascript", "CSS", "HTML"],
         "link":"https://adamolson11.github.io/OhSo_Bored/#",
         "githubLink":"https://github.com/adamolson11/OhSo_Bored"
     },
     {
         "id": 2,
         "name":"Coffee Orders",
+        "description": "Order up! Play this simple game in which you receive orders for coffees and provide the amount of creamers needed as indicated by the board above",
+        "technologies": ["Javascript", "CSS", "HTML"],
         "link":"https://npokrandt.github.io/coffee-orders/",
         "githubLink":"https://github.com/npokrandt/coffee-orders"
     },
     {
         "id": 3,
         "name":"The Color Game",
+        "description": "In this chance-based game, you'll try to survive as long as possible against your opponents and the random number generator. Will you outlast the others?",
+        "technologies": ["Javascript", "CSS", "HTML"],
         "link":"https://npokrandt.github.io/the-color-game/",
         "githubLink":"https://github.com/npokrandt/the-color-game"
     },
     {
         "id": 4,
         "name":"BlogHub",
+        "description": "Have something to tell the computer world? Come over to the BlogHub where you can share your techy thoughts and comment on other peoples'",
+        "technologies": ["Javascript", "Handlebars", "Express", "Node"],
         "link":"https://npokrandt-tech-blog-4bddaac396b9.herokuapp.com/",
         "githubLink":"https://github.com/npokrandt/tech-blog"
     },
     {
         "id": 5,
         "name":"Scraggle",
+        "description": "This game (currently under refactoring) comines the fun of point-values of Scrabble and finding words in a grid of Boggle! My first significant project",
+        "technologies": ["Javascript", "CSS", "HTML", "SQL", "PHP"],
         "link":"https://npokrandt.github.io/scraggle/",
         "githubLink":"https://github.com/npokrandt/scraggle"
     }
