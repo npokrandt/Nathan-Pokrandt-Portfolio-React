@@ -10,6 +10,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+// Make it fancier, see about animations and component libraries
 const router = createBrowserRouter([
   {
     path: '/',

@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+// TODO: add backend functionality to email me whatever the contact form has
+// TODO: add alerts if an input is exited with no input
 const Contact = () => {
 
     const [name, setName] = useState('')

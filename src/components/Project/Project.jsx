@@ -1,5 +1,6 @@
 import './Project.css'
 
+// TODO: add techs and summary to project
 const Project = props => {
     return (
         <div className="card mb-3">

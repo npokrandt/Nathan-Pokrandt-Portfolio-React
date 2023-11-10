@@ -1,5 +1,6 @@
 import resume from './Nathan_Pokrandt_Full_Stack_Web_Dev_Resume.pdf'
 
+// TODO: add skills to proficiencies
 const Resume = () => {
     return(
         <div className="container">
@@ -11,11 +12,30 @@ const Resume = () => {
                         <h3>Proficiencies:</h3>
                     </div>
                     <div className="card-body bg-dark text-light">
+                        <h5>General skills:</h5>
                         <ul>
                             <li>Adept at logical analysis</li>
                             <li>Skilled at problem solving</li>
                             <li>Well-versed in several coding concepts</li>
                             <li>Eager and quick learner</li>
+                            <li>Git</li>
+                        </ul>
+                        <h5>Front End:</h5>
+                        <ul>    
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                            <li>Handlebars</li>
+                        </ul>
+                        <h5>Back End:</h5>
+                        <ul>
+                            <li>SQL</li>
+                            <li>MongoDB</li>
+                            <li>Node.js</li>
+                            <li>Sequelize</li>
+                            <li>Mongoose</li>
+                            <li>Express</li>
                         </ul>
                     </div>
                 </div>
