@@ -3,11 +3,11 @@ import projects from '../projects/projects.json'
 import aquapocalypsePic from '../images/aquapocalypse.png'
 import ohSoBoredPic from '../images/ohSoBored.png'
 import coffeeOrdersPic from '../images/coffeeOrders.png'
-import theColorGamePic from '../images/the-color-game.png'
+import socialsyncPic from '../images/socialsync.png'
 import blogHubPic from '../images/bloghub.png'
 import scragglePic from '../images/scraggle.png'
 
-const images = [aquapocalypsePic, ohSoBoredPic, coffeeOrdersPic, theColorGamePic, blogHubPic, scragglePic]
+const images = [aquapocalypsePic, ohSoBoredPic, coffeeOrdersPic, socialsyncPic, blogHubPic, scragglePic]
 
 const Portfolio = () => {
     return(

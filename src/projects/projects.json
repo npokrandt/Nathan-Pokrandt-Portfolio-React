@@ -25,11 +25,11 @@
     },
     {
         "id": 3,
-        "name":"The Color Game",
-        "description": "In this chance-based game, you'll try to survive as long as possible against your opponents and the random number generator. Will you outlast the others?",
-        "technologies": ["Javascript", "CSS", "HTML"],
-        "link":"https://npokrandt.github.io/the-color-game/",
-        "githubLink":"https://github.com/npokrandt/the-color-game"
+        "name":"SocialSync",
+        "description": "Having trouble finding time to hang out with friends and time management? SocialSync allows you and your friends to easily schedule events and compare with your friends for ease of planning!",
+        "technologies": ["Javascript", "MongoDB", "Express", "React", "Node", "JWT"],
+        "link":"https://socialsync-122645211db0.herokuapp.com/",
+        "githubLink":"https://github.com/npokrandt/socialsync"
     },
     {
         "id": 4,
