@@ -29,6 +29,8 @@ const Contact = () => {
         //as there is no back-end, this function doesn't actually submit the info anywhere - yet
         alert('Message submitted')
 
+        //send me an email from that address with the name and the message
+
         setName('')
         setEmail('')
         setMessage('')
