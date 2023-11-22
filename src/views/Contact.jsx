@@ -1,51 +1,35 @@
-import { useState } from "react"
+import { useRef } from "react"
+import emailjs from '@emailjs/browser'
+//import 'dotenv/config'
 
 // TODO: add backend functionality to email me whatever the contact form has
-// TODO: add alerts if an input is exited with no input
 const Contact = () => {
 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
+    const form = useRef()
 
-    const handleInputChange = e => {
-        const { target } = e
-        const inputType = target.name
-        const inputValue = target.value
-
-        if (inputType === 'name'){
-            setName(inputValue)
-        } else if (inputType === 'email'){
-            setEmail(inputValue)
-        } else {
-            setMessage(inputValue)
-        }
-    }
-
-    const handleSubmit = e => {
-        console.log(name, email, message)
+    const sendMessage = e => {
         e.preventDefault()
 
-        //as there is no back-end, this function doesn't actually submit the info anywhere - yet
-        alert('Message submitted')
+        alert('Message submitted') 
+        emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_PUBLIC_KEY)
+            .then((result) => {
+                console.log(result.text)
+            }), (error) => {
+                console.log(error.text)
+            }
 
-        //send me an email from that address with the name and the message
-
-        setName('')
-        setEmail('')
-        setMessage('')
     }
     
     return(
         <div className="container">
             <h2 className="mb-4">Contact me by filling out these fields:</h2>
-            <form className="form p-4 mb-4" onSubmit={handleSubmit}>
+            <form ref={form} className="form p-4 mb-4" onSubmit={sendMessage}>
                 <label className="form-label">Input Name Here:</label>
-                <input className='form-control' onChange={handleInputChange} name='name' type="text" placeholder="Name" value={name} required/>
+                <input className='form-control' name='user_name' type="text" placeholder="Name" required/>
                 <label className="form-label">Input Email Here:</label>
-                <input className='form-control' onChange={handleInputChange} name='email' type="email" placeholder="Email" value={email} required />
+                <input className='form-control' name='user_email' type="email" placeholder="Email" required />
                 <label className="form-label">Input Message Here:</label>
-                <input className='form-control' onChange={handleInputChange} name='message' type="text" placeholder="Message" value={message} required />
+                <input className='form-control' name='message' type="text" placeholder="Message" required />
                 <button type="submit" className="btn btn-primary mt-4">Submit</button>
             </form>
         </div>
