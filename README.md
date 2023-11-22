@@ -23,7 +23,7 @@ At the bottom of any of the pages is a footer. It has links to my linkedIn page,
 ## Link
 
 My portfolio is deployed to Netlify here:
-https://653b3fe3b52eae0c9cecf6eb--zippy-dodol-9ca7c9.netlify.app/
+https://zippy-dodol-9ca7c9.netlify.app
 
 ## Notes
 
